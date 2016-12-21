@@ -1,5 +1,6 @@
 *.class
 *out/
+*.idea/
 *workspace.xml
 *tasks.xml
 *.iml

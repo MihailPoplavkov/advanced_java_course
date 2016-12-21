@@ -40,7 +40,7 @@ public class Fighting {
         Scanner scanner = new Scanner(System.in);
         Pokemon.Combat combat = null;
         Pokemon.Direction direction = null;
-        System.out.println(pokemon.getName() + "'s actions (type \"attack\" or \"a\" to attack and \"defend\" or \"d\" to defend. Then type direction (\"head\"/\"h\", \"body\"/\"b\" or \"feet\"/\"f\")):");
+        System.out.println(pokemon.getName() + "'s actions (type \"attack\" or \"a\" to attack and \"defend\" or \"d\" to defend. Then separated by a space type direction (\"head\"/\"h\", \"body\"/\"b\" or \"feet\"/\"f\")):");
         boolean success = true;
         do {
             if (!success) {
