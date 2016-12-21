@@ -1,0 +1,5 @@
+*.class
+*out/
+*workspace.xml
+*tasks.xml
+*.iml
